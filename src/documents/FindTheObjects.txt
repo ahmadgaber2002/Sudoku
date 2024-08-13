@@ -1,0 +1,12 @@
+GUI
+	Sudoku GUI - contains all visual elements, initializes the game
+	Sudoku Board - represents the whole board, gets user input
+	Sudoku Sidebar - Side menu for user input, working in tandem with the board
+
+MODEL
+	Sudoku - object that handles the board, win conditions, pseudo-random generation of cells
+		Difficulty settings for the sudoku object
+		Wikipedia mentions recursive backtracking to solve sudoku, use to find solutions?
+		Fewest possible clues is 17 (potential hard mode)
+	Sudoku Cell - object that represents a cell of the board. Has a correct number value and can be assigned user-input values
+	User - object that saves results, possible daily streak? Not necessary, but could be nice. Potential serializability.

@@ -1,0 +1,18 @@
+#mainPane{
+    -fx-background-color:   #FFA500;
+}
+#stackPane{
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+    -fx-border-color: #000000;
+}
+#sidebar{
+    -fx-background-color: crimson;
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+    -fx-border-color:#000080;
+}
+#notesButton{
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+}
